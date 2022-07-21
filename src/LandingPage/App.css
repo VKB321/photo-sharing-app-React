@@ -1,0 +1,35 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  padding: 0%;
+  margin: 0%;
+}
+#login_image{
+  width: 49vw;
+  height: 100vh;
+}
+
+.container{
+  display: grid;
+  grid-template: 100%/repeat(2,1fr);
+}
+.login_Img,.RightPart{
+  position: relative;
+  width: 50vw;
+  text-align: center;
+}
+
+.RightPart{
+  position: relative;
+  color: green;
+  font-size: 35px;
+  margin-top: 40vh;
+ 
+}
+#btn{
+  border-color: green;
+  color: green;
+  font-size: 20px;
+  width: 5vw;
+  border-radius: 5px;
+}

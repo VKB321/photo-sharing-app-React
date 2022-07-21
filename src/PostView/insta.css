@@ -1,0 +1,102 @@
+/* postview */
+.Insta{
+   display: flex;
+   justify-content: center;
+   margin-top: 8vh;
+}
+.Insta1{
+    border: 1px solid rgb(231, 225, 225);
+    border-radius: 5px;
+}
+#logo{
+    
+    width: 3vw;
+    margin-left: 30px;
+    margin-right: 8px;
+    height: 3vw;
+}
+#clone{
+    margin-bottom: 10px;
+}
+/* Insta */
+body{
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 20vw;
+}
+.content1{
+   display: flex;
+   justify-content: center;
+}
+.content{
+    width: 40vw;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+.head{
+    border-bottom: 1px solid rgb(158, 161, 161);
+    width: 80vw;
+    display: flex;
+    display: grid;
+    grid-template: 100%/repeat(2,1fr);
+}
+
+#dotFont,#end{
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+#start{
+    display: flex;
+    
+    font-size: 30px;
+    color: green;
+}
+.NameGrid{
+    line-height: 1vh;
+}
+#grid1name{
+    display: grid;
+    grid-template: 100%/repeat(2,1fr);
+    margin-bottom: 2px;
+}
+#colour,#colour1{
+    color: grey;
+}
+#colour1{
+    margin-top: 0%;
+}
+#post{
+    width: 40vw;
+    height: 40vh;
+    margin-top: -2px;
+}
+#grid1name,#description,#colour1{
+    margin-top: -5px;
+    margin-left: 15px;
+
+}
+#description{
+    margin-top: 0%;
+}
+#imglike{
+   
+    font-size: 20px;
+}
+#imgsend{
+    width: 3vw;
+    height: 3vh;
+    margin-bottom: 2px;
+}
+#dotFont1{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
